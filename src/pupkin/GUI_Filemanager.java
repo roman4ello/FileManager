@@ -95,26 +95,8 @@ public class GUI_Filemanager extends JFrame {
                 "one", "two", "three", "four",
                 "one", "two", "three", "four"
         };
-//        String[] data2 = {
-//                "one", "two", "three", "four",
-//                "one", "two", "three", "four",
-//                "one", "two", "three", "four",
-//                "one", "two", "three", "four",
-//                "one", "two", "three", "four",
-//                "one", "two", "three", "four",
-//                "one", "two", "three", "four",
-//                "one", "two", "three", "four",
-//                "one", "two", "three", "four",
-//                "one", "two", "three", "four",
-//                "one", "two", "three", "four"
-//        };
-
 
         list1 = new JList(data1);
-
-        //----------
-
-        //----------
         list2 = new JList( );
         JScrollPane jScrollPane1 = new JScrollPane(list1);
         JScrollPane jScrollPane2 = new JScrollPane(list2);
